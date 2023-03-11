@@ -1,18 +1,8 @@
-# create-svelte
+# Svelte-Configcat
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Siddhant-K-code/svelte-configcat)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This is a sample project to demonstrate how to use [ConfigCat](https://configcat.com) with [Svelte](https://svelte.dev). It uses the [ConfigCat Svelte SDK](https://configcat.com/docs/sdk-reference/js/) to fetch feature flags from the ConfigCat CDN.
 
 ## Developing
 
@@ -25,14 +15,9 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Demo
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+| Feature Flag |                     ConfigCat Dashboard                     |               Svelte App                |
+| :----------: | :---------------------------------------------------------: | :-------------------------------------: |
+|     Off      | ![image](./assets/feature-flag-off-configcat-dashboard.png) | ![image](./assets/feature-flag-off.png) |
+|      On      | ![image](./assets/feature-flag-on-configcat-dashboard.png)  | ![image](./assets/feature-flag-on.png)  |
